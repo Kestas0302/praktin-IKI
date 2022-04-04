@@ -1,0 +1,94 @@
+body {
+    background-image: url(./How-to-store-fruit-to-keep-it-fresh-resized.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+img {
+    height: 50px;
+}
+
+.white-header a {
+    color: rgba(14, 13, 13, 0.842);
+    margin: 0 12px;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.white-header {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 10px 16px;
+    align-items: flex-end;
+
+}
+
+.first-section {
+    background-color: white;
+    margin: 20px 300px;
+    padding: 20px;
+    border: 100px;
+}
+
+.first-section img {
+    width: 50%;
+    height: 50%;
+}
+
+.first-flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 5px;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+main{
+    background-color: white;
+    padding: 20px;
+  margin: 20px 100px;
+    border-radius: 5px;
+}
+#contact .greentext{
+    color: green;
+}
+
+#contact input, #contact textarea{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#contact input[type=submit]{
+    width: 50%;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+#contact table{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#contact table, td, th{
+    border: 1px solid #eee;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+#contact tr td:first-child{
+    color: green;
+    font-weight: bold;
+}
